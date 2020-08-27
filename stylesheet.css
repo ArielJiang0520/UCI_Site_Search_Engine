@@ -1,0 +1,47 @@
+QLineEdit {
+	background-color: white;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	selection-background-color: #eff3f9;
+	selection-color: black;
+}
+
+
+QListWidget {
+	border-color: lightgray;
+	background-color: white;
+	border-radius: 5px;
+}
+
+
+QListWidget::item {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+
+QListWidget::item:hover {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #eff3f9;
+}
+
+
+QPushButton:!hover {
+    background-color: #a1beed;
+    border-width: 0px;
+    border-style: outset;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+}
+
+
+QPushButton:hover {
+    background-color: #b2cffe;
+    border-width: 0px;
+    border-style: outset;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+}
